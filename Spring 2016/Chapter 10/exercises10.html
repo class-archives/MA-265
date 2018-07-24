@@ -1,0 +1,351 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>exercises10</title><meta name="generator" content="MATLAB 8.5"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2016-04-08"><meta name="DC.source" content="exercises10.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } 
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><h2>Contents</h2><div><ul><li><a href="#2">MATLAB 10.2 Exercise 1</a></li><li><a href="#3">MATLAB 10.2 Exercise 3</a></li><li><a href="#4">MATLAB 10.2 Exercise 4</a></li><li><a href="#5">MATLAB 10.2 Exercise 6</a></li><li><a href="#6">MATLAB 10.2 Exercise 7</a></li><li><a href="#7">MATLAB 10.3 Exercise 1</a></li><li><a href="#8">MATLAB 10.3 Exercise 2</a></li><li><a href="#9">MATLAB 10.3 Exercise 7</a></li></ul></div><pre class="codeinput"><span class="comment">% Kathryn Atherton</span>
+<span class="comment">% MATLAB Excercises 10.2 &amp; 10.3</span>
+</pre><pre class="codeoutput error">Error: File: C:\Users\katherto\exercises10.m Line: 105 Column: 1
+Function definitions are not permitted in this context.
+</pre><h2>MATLAB 10.2 Exercise 1<a name="2"></a></h2><pre class="codeinput">fprintf(<span class="string">'Let'</span>)
+w = [3;4]
+fprintf(<span class="string">'a) Find the projection p of'</span>)
+u = [1;2]
+fprintf(<span class="string">'onto w.\n'</span>)
+p = (dot(w,u) / sqrt(w(1)^2 + w(2)^2)) * w
+
+fprintf(<span class="string">'\nb) Use command project(u,w) to determine the quadrant in which p'</span>)
+fprintf(<span class="string">'\nis located. Record the quadrant here.'</span>)
+<span class="comment">% project(u,w) does not work with this version of MATLAB</span>
+fprintf(<span class="string">'\nQuadrant = I\n'</span>)
+
+fprintf(<span class="string">'\nc) Find a scalar k for which the vector kp has a norm that is'</span>)
+fprintf(<span class="string">'\nequal to one.'</span>)
+mag_p = sqrt(p(1)^2 + p(2)^2);
+k = 1 / mag_p
+
+fprintf(<span class="string">'\nd) Find a vector s that is orthogonal to span{w}.'</span>)
+s = orth(w)
+</pre><h2>MATLAB 10.2 Exercise 3<a name="3"></a></h2><pre class="codeinput">fprintf(<span class="string">'Let'</span>)
+w = [3;4]
+fprintf(<span class="string">'\na) Find the projection p of'</span>)
+u = [4;-3]
+fprintf(<span class="string">'onto w.'</span>)
+p = (dot(w,u) / sqrt(w(1)^2 + w(2)^2)) * w
+
+fprintf(<span class="string">'\nb) Briefly explain your answer to part a). Hint: use command'</span>)
+fprintf(<span class="string">'project(u,w).'</span>)
+<span class="comment">% project(u,w) does not work with this version of MATLAB</span>
+fprintf(<span class="string">'\nA Projection is the product of the dot product of two vectors'</span>)
+fprintf(<span class="string">'\ndivided by the magnitude of the vector on which the second vector'</span>)
+fprintf(<span class="string">'\nis being projected and the vector on which the second vector is'</span>)
+fprintf(<span class="string">'\nbeing projected.'</span>)
+</pre><h2>MATLAB 10.2 Exercise 4<a name="4"></a></h2><pre class="codeinput">fprintf(<span class="string">'Let'</span>)
+w1 = [1;2;0]
+w2 = [2;-1;3]
+fprintf(<span class="string">'and'</span>)
+u = [1;4;1]
+
+fprintf(<span class="string">'\na) Find the projection p of u onto span{w1,w2}.'</span>)
+proj_w1u = (dot(w1,u) / sqrt(w1(1)^2 + w1(2)^2)) * w1;
+proj_w2u = (dot(w2,u) / sqrt(w2(1)^2 + w2(2)^2)) * w2;
+p = proj_w1u + proj_w2u
+
+fprintf(<span class="string">'\nb) Find a vector s that is orthogonal to span{w1, w2}.'</span>)
+s = cross(w1,w2)
+</pre><h2>MATLAB 10.2 Exercise 6<a name="5"></a></h2><pre class="codeinput">fprintf(<span class="string">'Let'</span>)
+w1 = [sqrt(2) / 2; 0; sqrt(2) / 2]
+w2 = [sqrt(2) / -2; 0; sqrt(2) / 2]
+fprintf(<span class="string">'and W = span{w1,w2}.'</span>)
+
+fprintf(<span class="string">'\na) Show that {w1,w2} is an orthonormal set.'</span>)
+dot_product = dot(w1,w2)
+mag_w1 = dot(w1,w1)
+mag_w2 = dot(w2,w2)
+
+fprintf(<span class="string">'\nb) Use 10.4 to determine projWu where'</span>)
+u = [4;2;1]
+proj_w1u = (dot(w1,u) / sqrt(w1(1)^2 + w1(2)^2)) * w1;
+proj_w2u = (dot(w2,u) / sqrt(w2(1)^2 + w2(2)^2)) * w2;
+p = proj_w1u + proj_w2u
+</pre><h2>MATLAB 10.2 Exercise 7<a name="6"></a></h2><pre class="codeinput">fprintf(<span class="string">'Let'</span>)
+w1 = [sqrt(3) / 3; sqrt(3) / 3; sqrt(3) / 3]
+w2 = [sqrt(2) / -2; 0; sqrt(2) / 2]
+fprintf(<span class="string">'and W = span{w1,w2}.'</span>)
+
+fprintf(<span class="string">'\na) Show that {w1,w2} is an orthonormal set.'</span>)
+dot_product = dot(w1,w2)
+mag_w1 = dot(w1,w1)
+mag_w2 = dot(w2,w2)
+
+fprintf(<span class="string">'\nb) Use 10.4 to determine projWu where'</span>)
+u = [4;2;1]
+proj_w1u = (dot(w1,u) / sqrt(w1(1)^2 + w1(2)^2)) * w1;
+proj_w2u = (dot(w2,u) / sqrt(w2(1)^2 + w2(2)^2)) * w2;
+p = proj_w1u + proj_w2u
+</pre><h2>MATLAB 10.3 Exercise 1<a name="7"></a></h2><pre class="codeinput">fprintf(<span class="string">'Let V = R^3 with the standard inner product and let S = {u1,u2,u3}'</span>)
+fprintf(<span class="string">'\n(1;2;0), (1;0;0), (1;0;1).'</span>)
+u1 = [1;2;0];
+u2 = [1;0;0];
+u3 = [1;0;1];
+fprintf(<span class="string">'\nUse routine gschmidt in MATLAB to obtain an orthonormal basis T and'</span>)
+fprintf(<span class="string">'\nthen find the coordinates of'</span>)
+x = [1;2;3]
+fprintf(<span class="string">'relative to T. Record the orthonormal basis and the coordinates of'</span>)
+fprintf(<span class="string">'\nx below.'</span>)
+<span class="comment">% MATLAB does not know the function gschmidt. Below is a function found</span>
+<span class="comment">% online from Yingwei Wang of Purdue University.</span>
+<span class="keyword">function</span> [Q,R] = gschmidt(V)
+[m,n] = size(V);
+R = zeroes(n);
+R(1,1) = norm(V(:,1));
+Q(:,1) = V(:,1) / R(1,1);
+<span class="keyword">for</span> k = 2:n
+    R(1:k-1, k) = Q(:, 1:k-2)'*V(:,k);
+    Q(:,k) = V(:,k) - Q(:,1:k-1) * R(1:k-1,k);
+    R(k,k) = norm(Q(:,k));
+    Q(:,k) = Q(:,k) / R(k,k);
+<span class="keyword">end</span>
+<span class="keyword">end</span>
+A = [u1,u2,u3];
+T = gschmidt(A)
+</pre><h2>MATLAB 10.3 Exercise 2<a name="8"></a></h2><pre class="codeinput">fprintf(<span class="string">'Let V = R^4 with the standard inner product and let S = {u1,u2,u3,u4} = '</span>)
+fprintf(<span class="string">'\n{(-1;2;0;1), (2;1;1;0), (0;1;0;1), (1;1;0;1)}.'</span>)
+u1 = [-1;2;0;1];
+u2 = [2;1;1;0];
+u3 = [0;1;0;1];
+u4 = [1;1;0;1];
+fprintf(<span class="string">'\nUse routine gschmidt in MATLAB to obtain an orthonormal basis T'</span>)
+fprintf(<span class="string">'\nand then find the coordinates of'</span>)
+x = [4;0;2;1]
+fprintf(<span class="string">'relative to T. Record the orthonormal basis and the coordinates of'</span>)
+fprintf(<span class="string">'\nx below.'</span>)
+A = [u1,u2,u3,u4];
+T = gschmidt(A)
+</pre><h2>MATLAB 10.3 Exercise 7<a name="9"></a></h2><pre class="codeinput">fprint(<span class="string">'Let V = R^4 with the standard inner product and let'</span>)
+v1 = [3;1;2;0]
+v2 = [1;-1;-1;1]
+v3 = [0;-2;1;-1]
+
+fprintf(<span class="string">'\na) Find an orthonormal basis for R^4 containing scalar multiples'</span>)
+fprintf(<span class="string">'\nof the vectors v1 and v2. Record your results below.'</span>)
+fprintf(<span class="string">'\nThis is impossible, as there are not enough vectors to create a'</span>)
+fprintf(<span class="string">'\nbasis for R^4.'</span>)
+
+fprintf(<span class="string">'\nb) Find an orthonormal basis for R^4 containing scalar multiples'</span>)
+fprintf(<span class="string">'\nof the vectors v1, v2, and v3. Record your results below.'</span>)
+fprintf(<span class="string">'\nThis is impossible, as there are not enough vectors to create a'</span>)
+fprintf(<span class="string">'\nbasis for R^4.'</span>)
+</pre><p class="footer"><br><a href="http://www.mathworks.com/products/matlab/">Published with MATLAB® R2015a</a><br></p></div><!--
+##### SOURCE BEGIN #####
+% Kathryn Atherton
+% MATLAB Excercises 10.2 & 10.3
+
+%% MATLAB 10.2 Exercise 1
+
+fprintf('Let')
+w = [3;4]
+fprintf('a) Find the projection p of')
+u = [1;2] 
+fprintf('onto w.\n')
+p = (dot(w,u) / sqrt(w(1)^2 + w(2)^2)) * w
+
+fprintf('\nb) Use command project(u,w) to determine the quadrant in which p')
+fprintf('\nis located. Record the quadrant here.')
+% project(u,w) does not work with this version of MATLAB
+fprintf('\nQuadrant = I\n')
+
+fprintf('\nc) Find a scalar k for which the vector kp has a norm that is')
+fprintf('\nequal to one.')
+mag_p = sqrt(p(1)^2 + p(2)^2);
+k = 1 / mag_p
+
+fprintf('\nd) Find a vector s that is orthogonal to span{w}.')
+s = orth(w)
+
+%% MATLAB 10.2 Exercise 3
+fprintf('Let')
+w = [3;4]
+fprintf('\na) Find the projection p of')
+u = [4;-3]
+fprintf('onto w.')
+p = (dot(w,u) / sqrt(w(1)^2 + w(2)^2)) * w
+
+fprintf('\nb) Briefly explain your answer to part a). Hint: use command')
+fprintf('project(u,w).')
+% project(u,w) does not work with this version of MATLAB
+fprintf('\nA Projection is the product of the dot product of two vectors')
+fprintf('\ndivided by the magnitude of the vector on which the second vector')
+fprintf('\nis being projected and the vector on which the second vector is')
+fprintf('\nbeing projected.')
+
+%% MATLAB 10.2 Exercise 4
+fprintf('Let')
+w1 = [1;2;0]
+w2 = [2;-1;3]
+fprintf('and')
+u = [1;4;1]
+
+fprintf('\na) Find the projection p of u onto span{w1,w2}.')
+proj_w1u = (dot(w1,u) / sqrt(w1(1)^2 + w1(2)^2)) * w1;
+proj_w2u = (dot(w2,u) / sqrt(w2(1)^2 + w2(2)^2)) * w2;
+p = proj_w1u + proj_w2u
+
+fprintf('\nb) Find a vector s that is orthogonal to span{w1, w2}.')
+s = cross(w1,w2)
+
+
+%% MATLAB 10.2 Exercise 6
+fprintf('Let')
+w1 = [sqrt(2) / 2; 0; sqrt(2) / 2]
+w2 = [sqrt(2) / -2; 0; sqrt(2) / 2]
+fprintf('and W = span{w1,w2}.')
+
+fprintf('\na) Show that {w1,w2} is an orthonormal set.')
+dot_product = dot(w1,w2)
+mag_w1 = dot(w1,w1)
+mag_w2 = dot(w2,w2)
+
+fprintf('\nb) Use 10.4 to determine projWu where')
+u = [4;2;1]
+proj_w1u = (dot(w1,u) / sqrt(w1(1)^2 + w1(2)^2)) * w1;
+proj_w2u = (dot(w2,u) / sqrt(w2(1)^2 + w2(2)^2)) * w2;
+p = proj_w1u + proj_w2u
+
+%% MATLAB 10.2 Exercise 7
+fprintf('Let')
+w1 = [sqrt(3) / 3; sqrt(3) / 3; sqrt(3) / 3]
+w2 = [sqrt(2) / -2; 0; sqrt(2) / 2]
+fprintf('and W = span{w1,w2}.')
+
+fprintf('\na) Show that {w1,w2} is an orthonormal set.')
+dot_product = dot(w1,w2)
+mag_w1 = dot(w1,w1)
+mag_w2 = dot(w2,w2)
+
+fprintf('\nb) Use 10.4 to determine projWu where')
+u = [4;2;1]
+proj_w1u = (dot(w1,u) / sqrt(w1(1)^2 + w1(2)^2)) * w1;
+proj_w2u = (dot(w2,u) / sqrt(w2(1)^2 + w2(2)^2)) * w2;
+p = proj_w1u + proj_w2u
+
+%% MATLAB 10.3 Exercise 1
+fprintf('Let V = R^3 with the standard inner product and let S = {u1,u2,u3}')
+fprintf('\n(1;2;0), (1;0;0), (1;0;1).')
+u1 = [1;2;0];
+u2 = [1;0;0];
+u3 = [1;0;1];
+fprintf('\nUse routine gschmidt in MATLAB to obtain an orthonormal basis T and')
+fprintf('\nthen find the coordinates of')
+x = [1;2;3]
+fprintf('relative to T. Record the orthonormal basis and the coordinates of')
+fprintf('\nx below.')
+% MATLAB does not know the function gschmidt. Below is a function found
+% online from Yingwei Wang of Purdue University. 
+function [Q,R] = gschmidt(V)
+[m,n] = size(V);
+R = zeroes(n);
+R(1,1) = norm(V(:,1));
+Q(:,1) = V(:,1) / R(1,1);
+for k = 2:n
+    R(1:k-1, k) = Q(:, 1:k-2)'*V(:,k);
+    Q(:,k) = V(:,k) - Q(:,1:k-1) * R(1:k-1,k);
+    R(k,k) = norm(Q(:,k));
+    Q(:,k) = Q(:,k) / R(k,k);
+end
+end
+A = [u1,u2,u3];
+T = gschmidt(A)
+
+%% MATLAB 10.3 Exercise 2
+fprintf('Let V = R^4 with the standard inner product and let S = {u1,u2,u3,u4} = ')
+fprintf('\n{(-1;2;0;1), (2;1;1;0), (0;1;0;1), (1;1;0;1)}.')
+u1 = [-1;2;0;1];
+u2 = [2;1;1;0];
+u3 = [0;1;0;1];
+u4 = [1;1;0;1];
+fprintf('\nUse routine gschmidt in MATLAB to obtain an orthonormal basis T')
+fprintf('\nand then find the coordinates of')
+x = [4;0;2;1]
+fprintf('relative to T. Record the orthonormal basis and the coordinates of')
+fprintf('\nx below.')
+A = [u1,u2,u3,u4];
+T = gschmidt(A)
+
+%% MATLAB 10.3 Exercise 7
+fprint('Let V = R^4 with the standard inner product and let')
+v1 = [3;1;2;0]
+v2 = [1;-1;-1;1]
+v3 = [0;-2;1;-1]
+
+fprintf('\na) Find an orthonormal basis for R^4 containing scalar multiples')
+fprintf('\nof the vectors v1 and v2. Record your results below.')
+fprintf('\nThis is impossible, as there are not enough vectors to create a')
+fprintf('\nbasis for R^4.')
+
+fprintf('\nb) Find an orthonormal basis for R^4 containing scalar multiples')
+fprintf('\nof the vectors v1, v2, and v3. Record your results below.')
+fprintf('\nThis is impossible, as there are not enough vectors to create a')
+fprintf('\nbasis for R^4.')
+##### SOURCE END #####
+--></body></html>
